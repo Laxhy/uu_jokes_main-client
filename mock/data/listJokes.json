@@ -1,0 +1,335 @@
+{
+  "itemList": [
+    {
+      "id": "1a",
+      "name": "Keep trying",
+      "text": "If at first you don't succeed, skydiving is not for you!",
+      "averageRating": 4.3,
+      "ratingCount": 0,
+      "categories": [
+        "e5"
+      ]
+    },
+    {
+      "id": "2b",
+      "name": "The way to fish",
+      "text": "Give a man a fish and he will eat for a day. Teach him how to fish and he will sit in a boat and drink beer all day.",
+      "averageRating": 3.1,
+      "ratingCount": 6,
+      "categories": [
+        "a1"
+      ]
+    },
+    {
+      "id": "3c",
+      "name": "Know your limits",
+      "text": "You know you're getting old when your wife says, \"Honey, lets run upstairs and make love,\" and you answer, \"I can't do both.\"",
+      "averageRating": 1.6,
+      "ratingCount": 3,
+      "categories": [
+        "b2",
+        "e5"
+      ]
+    },
+    {
+      "id": "4d",
+      "name": "Sand",
+      "text": "What do you have when 100 lawyers are buried up to their necks in sand? Not enough sand.",
+      "averageRating": 3.3,
+      "ratingCount": 3,
+      "categories": [
+        "c3"
+      ]
+    },
+    {
+      "id": "5e",
+      "name": "Dating",
+      "text": "When Magnesium and Oxygen started dating I was like, \"O MG!\"",
+      "averageRating": 4.0,
+      "ratingCount": 6,
+      "categories": [
+        "b2",
+        "d4"
+      ]
+    },
+    {
+      "id": "5f",
+      "name": "Fish",
+      "averageRating": 1.4,
+      "text": "What did the fish say when it hit the wall?<br/>Damn.",
+      "categories": [
+        "h8", "a1"
+      ]
+    },
+    {
+      "id": "5g",
+      "name": "Dance",
+      "averageRating": 4.0,
+      "text": "How do you make a tissue dance?<br/>You put a little boogie on it.",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5h",
+      "name": "Forest Gump",
+      "averageRating": 0.9,
+      "text": "What's Forrest Gump's password?<br/>1Forrest1",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5i",
+      "name": "Time",
+      "averageRating": 1.4,
+      "text": "What do you call a belt made out of watches?<br/>A waist of time.",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5j",
+      "name": "Bicycle",
+      "averageRating": 3.2,
+      "text": "Why can't bicycles stand on their own?<br/>They are two tired",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5k",
+      "name": "Train",
+      "averageRating": 3.9,
+      "text": "How does a train eat?<br/>It goes chew, chew",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5l",
+      "name": "Laptop",
+      "averageRating": 1.3,
+      "text": "What do you call a singling Laptop<br/>A Dell",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5m",
+      "name": "Flower",
+      "averageRating": 0.0,
+      "text": "How many lips does a flower have?<br/>Tulips",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5n",
+      "name": "Party",
+      "averageRating": 4.9,
+      "text": "How do you organize an outer space party?<br/>You planet",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5o",
+      "name": "Shoes",
+      "averageRating": 3.9,
+      "text": "What kind of shoes does a thief wear?<br/>Sneakers",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5p",
+      "name": "Dentist",
+      "averageRating": 0.1,
+      "text": "What's the best time to go to the dentist?<br/>Tooth hurty.",
+      "categories": [
+        "h8"
+      ]
+    },
+    {
+      "id": "5q",
+      "name": "Broken pencil",
+      "averageRating": 2.2,
+      "text": "Knock knock. <br/> Who's there? <br/> A broken pencil. <br/> A broken pencil who?<br/>Never mind. It's pointless.",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5r",
+      "name": "Cows",
+      "averageRating": 4.7,
+      "text": "Knock knock. <br/> Who's there? <br/> Cows go. <br/> Cows go who?<br/>No, cows go moo.",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5s",
+      "name": "Old lady",
+      "averageRating": 0.7,
+      "text": "Knock knock. <br/> Who's there? <br/> Little old lady. <br/> Little old lady who?<br/>I didn't know you could yodel!",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5t",
+      "name": "Cereal",
+      "averageRating": 3.0,
+      "text": "Knock knock. <br/> Who's there? <br/> Cereal <br/> Cereal who?<br/>Cereal pleasure to meet you",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5u",
+      "name": "Harry",
+      "averageRating": 3.0,
+      "text": "Knock knock. <br/> Who's there? <br/> Harry! <br/> Harry who?<br/>Harry up and answer the door!",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5v",
+      "name": "Blessing",
+      "averageRating": 0.4,
+      "text": "Knock knock. <br/> Who's there? <br/> Bless! <br/> Bless who?<br/>I didn't sneeze, but thank you.",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5w",
+      "name": "Tank",
+      "averageRating": 2.4,
+      "text": "Knock knock. <br/> Who's there? <br/> Tank <br/> Tank who?<br/>You're welcome!",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5x",
+      "name": "Opportunity",
+      "averageRating": 0.4,
+      "text": "Knock knock. <br/> Who's there? <br/> Opportunity<br/>... Opportunity doesn't knock twice.",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5y",
+      "name": "Alex",
+      "averageRating": 4.8,
+      "text": "Knock knock. <br/> Who's there? <br/> Alex. <br/> Alex who?<br/>ALex the questions around here!",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "5z",
+      "name": "Hawaii",
+      "averageRating": 4.3,
+      "text": "Knock knock. <br/> Who's there? <br/> Hawaii. <br/> Hawaii who?<br/>I'm fine, Hawaii you?",
+      "categories": [
+        "f6"
+      ]
+    },
+    {
+      "id": "6a",
+      "name": "Boolean",
+      "averageRating": 4.9,
+      "text": "What's the best thing about a Boolean?<br/>Even if you're wrong, you're only off by a bit.",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6b",
+      "name": "OOP",
+      "averageRating": 3.7,
+      "text": "What's the object-oriented way to become wealthy?<br/>Inheritance",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6c",
+      "name": "Foo Bar Baz",
+      "averageRating": 1.1,
+      "text": "Where do programmers like to hangout?<br/>The Foo Bar.",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6d",
+      "name": "Array",
+      "averageRating": 4.7,
+      "text": "Why did the programmer quit his job?<br/>Because he didn't get arrays.",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6e",
+      "name": "Finland",
+      "averageRating": 0.8,
+      "text": "What do you call a programmer from Finland?<br/>nerdic",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6f",
+      "name": "SQL",
+      "averageRating": 3.8,
+      "text": "A SQL query goes into a bar, walks up to two tables and ask...<br/>Can I join you?",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6g",
+      "name": "Hardware",
+      "averageRating": 2.4,
+      "text": "How many programmers does it take to change a light bulb?<br/>None, that's a hardware problem.",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6h",
+      "name": "Recursion",
+      "averageRating": 2.6,
+      "text": "To understand what recursion is...<br/>... you must first understand recursion.",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6i",
+      "name": "Hello World",
+      "averageRating": 2.5,
+      "text": "A foo walks into a bar, takes a look around and says...<br/>Hello, World!",
+      "categories": [
+        "g7"
+      ]
+    },
+    {
+      "id": "6j",
+      "name": "A bit",
+      "averageRating": 4.3,
+      "text": "Two bytes meet. The first byte asks, \"Are you ill?\"<br/>The second byte replies, \"No, just feeling a bit off.\"",
+      "categories": [
+        "g7"
+      ]
+    }
+  ]
+}
