@@ -73,7 +73,8 @@ export const Left = createReactClass({
       { code: "responsive", content: "Responsive" },
       { code: "content", content: "Comtent" },
       { code: "server", content: "Server" },
-      { code: "categories", content: "Categories" }
+      { code: "categories", content: "Categories" },
+      { code: "shoppingList", content: "ShoppingList" }
 
     ]
   },

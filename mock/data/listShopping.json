@@ -1,0 +1,64 @@
+{
+  "itemList": [
+    {
+      "id": "1",
+      "name": "Jidlo",
+      "items": [
+        {
+          "id": "1",
+          "name": "Rohliky",
+          "quantity": 10,
+          "shopped" : true
+        },
+        {
+          "id": "2",
+          "name": "Chleba",
+          "quantity": 1,
+          "shopped" : false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Drogerie",
+      "items": [
+        {
+          "id": "3",
+          "name": "Sampon",
+          "quantity": 1,
+          "shopped" : true
+        },
+        {
+          "id": "4",
+          "name": "Mydlo",
+          "quantity": 1,
+          "shopped" : false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Obleceni",
+      "items": [
+        {
+          "id": "5",
+          "name": "Ponozky",
+          "quantity": 2,
+          "shopped" : true
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ostatni",
+      "items": [
+        {
+          "id": "1",
+          "name": "Tenisova raketa",
+          "quantity": 1,
+          "shopped" : false
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,8 @@ import "uu5g04-bricks";
 import Config from "./config/config.js";
 import ServerCalls from "calls";
 import Accordion from "../server/accirdion.js";
+import ListPage from "../bricks/list-page.js"
+import JokeForm from "../server/joke-form.js"
 
 import "./server.less";
 //@@viewOff:imports
@@ -27,7 +29,8 @@ export const Server = createReactClass({
       main: Config.CSS + "server"
     },
     calls: {
-      onLoad: "loadJokes"
+      onLoad: "loadJokes",
+      createJoke: "createNewJoke"
     }
   },
   //@@viewOff:statics
@@ -56,29 +59,49 @@ export const Server = createReactClass({
   },
 
   _openModalWindowAlternative() {
-    this.getCcrComponentByKey("UU5.Bricks.Page").getModal().open({
-      header: "JokeName",
-      content: <UU5.Bricks.Paragraph />
+    UU5.Environment.getPage().getModal().open({
+      header: "Create new joke",
+      content: <JokeForm onSave={this._handleModalCreateJokeSave}
+                         onSaveDone={this._handleModalCreateJokeSaveDone}
+                         onSaveFail={this._handleModalCreateJokeSaveFail}/>
     })
   },
-  _openModalWindow() {
-    this._modal.open({
-         header: "JokeName",
-         content: <UU5.Bricks.Paragraph />
-        }
-    );
+  _handleModalCreateJokeSave(opt, joke) {
+    console.log("Save", opt)
+    let callReference = this.getCall("createJoke")
+    callReference({
+      date: opt.values,
+      done: (successCallServerData) => {
+        console.log(successCallServerData)
+        opt.component.saveDone(successCallServerData)
+        // OK
+      },
+      fail: (failResponseServerData) => {
+        console.log(failResponseServerData)
+        opt.component.saveFail(failResponseServerData.data)
+
+      }
+    })
   },
+
+  _handleModalCreateJokeSaveDone(opt) {
+    console.log("_handleModalCreateJokeSaveDone", opt)
+    UU5.Environment.getPage().getModal().close();
+  },
+  _handleModalCreateJokeSaveFail(opt) {
+    console.log("_handleModalCreateJokeSaveFail", opt)
+    UU5.Environment.getPage().getModal().close();
+  },
+
   //@@viewOff:private
 
   //@@viewOn:render
   render() {
     return (
       <UU5.Bricks.Div {...this.getMainPropsToPass()}>
-        <UU5.Bricks.Button content="Novy vtip" onClick={this._openModalWindowAlternative} />
+        <ListPage label="Kategorie" onAddLabel="addLabel" onAdd={this._openModalWindowAlternative}>
         {this.getLoadFeedbackChildren(this._getChild)}
-        {
-          /* <UU5.Bricks.Modal ref_={modal => this._modal = modal} /> */
-        }
+        </ListPage>
       </UU5.Bricks.Div>
     );
   }

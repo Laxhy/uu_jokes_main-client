@@ -74,7 +74,7 @@ export const Categories = createReactClass({
     UU5.Environment.getPage().getModal().close()
   },
   _onAddModalSave(opt) {
-    console.log("Save", opt)
+    //console.log("Save", opt)
     UU5.Environment.getPage().getModal().close()
     this.setState(prevState => {
       let itemList = prevState.dtoOut.itemList;
@@ -94,7 +94,6 @@ export const Categories = createReactClass({
     )
     this.state.dtoOut
   },
-
   _onUpdateHandle(category) {
     UU5.Environment.getPage().getModal().open(
         {
@@ -108,7 +107,7 @@ export const Categories = createReactClass({
     )
   },
   _onUpdateModalSave(opt, category) {
-    console.log("Update", opt, category)
+    //console.log("Update", opt, category)
     UU5.Environment.getPage().getModal().close()
     this.setState(prevState => {
           let itemList = prevState.dtoOut.itemList.map(
@@ -126,7 +125,8 @@ export const Categories = createReactClass({
             }
           }
         }
-    )
+    );
+
     this.state.dtoOut
   },
   //@@viewOff:private

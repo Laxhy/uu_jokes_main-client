@@ -4,29 +4,30 @@ import createReactClass from "create-react-class";
 import PropTypes from "prop-types";
 import * as UU5 from "uu5g04";
 import "uu5g04-bricks";
+import "uu5g04-forms";
 import Config from "./config/config.js";
 
-import "./responsive.less";
+import "./shopping-list-edit-item.less";
 //@@viewOff:imports
 
-export const Responsive = createReactClass({
+export const ShoppingListEditItem = createReactClass({
   //@@viewOn:mixins
-  mixins: [
-    UU5.Common.BaseMixin,
-    UU5.Common.RouteMixin
-  ],
+  mixins: [UU5.Common.BaseMixin,UU5.Forms.FormMixin],
   //@@viewOff:mixins
 
   //@@viewOn:statics
   statics: {
-    tagName: Config.TAG + "Responsive",
+    tagName: Config.TAG + "ShoppingListEditItem",
     classNames: {
-      main: Config.CSS + "responsive"
+      main: Config.CSS + "shoppinglistedititem"
     }
   },
   //@@viewOff:statics
 
   //@@viewOn:propTypes
+  propTypes: {
+    values: PropTypes.object
+  },
   //@@viewOff:propTypes
 
   //@@viewOn:getDefaultProps
@@ -47,15 +48,15 @@ export const Responsive = createReactClass({
   //@@viewOn:render
   render() {
     return (
-      <UU5.Bricks.Row {...this.getMainPropsToPass()}>
-        <UU5.Bricks.Column colWidth="m-6 s-12 xs-12" style={{backgroundColor: "yellow"}}> 1. sloupec</UU5.Bricks.Column>
-        <UU5.Bricks.Column colWidth="m-3 s-6 xs-12" style={{backgroundColor: "red"}}> 2. sloupec</UU5.Bricks.Column>
-        <UU5.Bricks.Column colWidth="m-3 s-6 xs-12" style={{backgroundColor: "blue"}}> 3. sloupec</UU5.Bricks.Column>
-
-      </UU5.Bricks.Row>
+      <UU5.Bricks.Div {...this.getMainPropsToPass()}>
+        <UU5.Forms.Text name="name" label="Item Name" required/>
+        <UU5.Forms.Number name="quantity" min={0} label="Item Quantity" required/>
+        <UU5.Bricks.Line />
+        <UU5.Forms.Controls />
+      </UU5.Bricks.Div>
     );
   }
   //@@viewOff:render
 });
 
-export default Responsive;
+export default ShoppingListEditItem;

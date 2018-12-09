@@ -44,6 +44,7 @@ let Calls = {
     });
   },
 
+
   // this method suppose to load data from server for authenticated user in SpaAuthenticated component
   // NOTE: in configuration file config/config.js is switch "useMock". When is true (default)
   // data are loaded from mock/data folder instead of server url
@@ -53,6 +54,15 @@ let Calls = {
   },
   loadCategories(dtoIn) {
     let commandUri = Calls.getCommandUri("listCategories");
+    Calls.call("get", commandUri, dtoIn);
+  },
+  createNewJoke(dtoIn) {
+    let commandUri = Calls.getCommandUri("jokeCreate");
+    setTimeout(() => {Calls.call("post", commandUri, dtoIn)}, 100);
+  },
+
+  loadShoppingList(dtoIn) {
+    let commandUri = Calls.getCommandUri("listShopping");
     Calls.call("get", commandUri, dtoIn);
   },
   //**************

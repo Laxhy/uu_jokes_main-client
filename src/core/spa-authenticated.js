@@ -17,6 +17,7 @@ import Responsive from "../routes/responsive.js";
 import Content from "../routes/content.js";
 import Server from "../routes/server.js";
 import Categories from "../routes/categories.js";
+import ShoppingList from "../routes/shopping-list.js";
 
 
 
@@ -89,6 +90,7 @@ const SpaAuthenticated = createReactClass({
             "content" : {component: <Content />},
             "server" : {component: <Server />},
             "categories" : {component: <Categories />},
+            "shoppingList" : {component: <ShoppingList />},
             "about": { component: <About identity={this.props.identity} /> }
           }}
           controlled={false}
